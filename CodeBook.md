@@ -1,4 +1,5 @@
-<center>DATA DICTIONARY - SMARTPHONES MEASUREMENTS</center>
+### A. DATA DICTIONARY - SMARTPHONES MEASUREMENTS
+
 subject<br>
 + Person identified as numbered as 1-30<br>
 
@@ -189,7 +190,7 @@ angle.Y.gravityMean.avg<br>
 angle.Z.gravityMean.avg<br>
 - Average of angular gravity mean on X,Y,Z dimensions
 
-<center> B. Transformations
+### B. Transformations
 
 1. Merged the activity labels to the activity table into activity_<set_type>
    data frame where <set_type> either "test" or "train".
