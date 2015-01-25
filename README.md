@@ -33,10 +33,11 @@ function and the test and train datasets are merged using the `rbind` R function
 
 The *dplyr* package `select` function has an argument `matches` that will
 match rows given regular expresion mean|std for the mean and standard deviation
-variables::
+variables:
   
 ```
-measure_mean_std <- select(measure_combined,idx,subject,set_type,activity_id,activity_name,matches("mean|std",ignore.case=TRUE))
+measure_mean_std <- select(measure_combined,idx,subject,set_type,
+activity_id,activity_name,matches("mean|std",ignore.case=TRUE))
 ```
 
 ### 3. Use Descriptive Names for Activities

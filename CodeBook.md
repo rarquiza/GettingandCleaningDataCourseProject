@@ -205,8 +205,8 @@ angle.Z.gravityMean.avg<br>
 4. Merged the rows of the test and train measurements data frames using
    rbind function.
 
-5. Selected the means and standard deviations columns using the dplyr
-   package select function. 
+5. Selected the mean and standard deviation columns using the dplyr
+   package select function and regular expression functionality.. 
 
 6. Extracted the specified independent tidy dataset using the sqldf
    package SQL interface to group the data by activity and subject
